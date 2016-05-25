@@ -6,7 +6,6 @@ var uglify = require('gulp-uglify');
 var utilities = require('gulp-util');
 var del = require('del');
 var jshint = require('gulp-jshint');
-
 var lib = require('bower-files')({
   "overrides":{
     "bootstrap" : {
